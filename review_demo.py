@@ -20,11 +20,11 @@ def on_closing():
         window.destroy()
 #contact
 def contact():
-    mess._show(title="Contact Me",message="If you find anything weird or you need any help contact me on 'meetsuvariya@gmail.com'")
+    mess._show(title="Contact Me",message="If you find anything weird or you need any help contact me on 'davidseowccc@gmail.com'")
 
 #about
 def about():
-    mess._show(title="About",message="This Attendance System is designed by Meet Suvariya")
+    mess._show(title="About",message="This Attendance System is designed by David Seow")
 
 #clearbutton
 def clear():
