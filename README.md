@@ -15,7 +15,7 @@ There are total 4 parts of this projects.
 
 
 ### Working 
-If you don't have required laibreries then firat you need to install that.
+The required libraries have to be installed.
 
 OpenCV
 >pip install OpenCV-python
@@ -25,6 +25,9 @@ Numpy
 
 Pandas
 >pip install pandas
+
+Pillow
+>pip install pillow
 
 Os 
 >pip install os
@@ -36,12 +39,12 @@ Now For run this project you need 'haarcascade_frontalface_default.xml' along wi
 Now you are good to go.  
 
 when you run this project you will see the simple GUI of this attendance system.were user can easily intract with this system.
-First user have to register new students for that they have to enter student name and ID no. and they have to take 100 images of that student. That images will store into one perticuler folder and at the time of train our recognizer that images will be userd.When you save that profile recognizer will train and it will genrate one trainer.yml file which is used at the time of taking attendance. Now when user wants to take attendance they have to click Take attendance button and it will start webcam. A person who are standing in front of webcam if he recognize succesfuly than it will show you a name of person other wise it will show the 'Unknown' at the bottom rectengle which was displayed for face detection.
+First user have to register new students for that they have to enter student name and ID no. and they have to take 100 images of that student. That images will store into one particuler folder and at the time of train our recognizer that images will be userd.When you save that profile recognizer will train and it will genrate one trainer.yml file which is used at the time of taking attendance. Now when user wants to take attendance they have to click Take attendance button and it will start webcam. A person who are standing in front of webcam if he recognize succesfuly than it will show you a name of person other wise it will show the 'Unknown' at the bottom rectengle which was displayed for face detection.
 
 If person will detected succesfully then it will save attendance in one CSV file and it will save that CSV file into one perticuler folder.This Auto genratation of CSV file is date wise which means it will save the attendance of one day in one CSV file.  
 
 ---
-For a detailed description, you can read my blog from the following link.
+For a detailed description, you can read this blog from the following link.
 
 https://medium.com/@meetsuvariya/face-recognition-based-attendance-system-with-gui-using-opencv-and-tkinter-2d5ce7422aa5
 
