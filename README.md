@@ -19,6 +19,7 @@ The required libraries have to be installed.
 
 OpenCV
 >pip install OpenCV-python
+>pip install opencv-contrib-python
 
 Numpy
 >pip install numpy
